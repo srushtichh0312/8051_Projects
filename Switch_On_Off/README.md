@@ -4,116 +4,91 @@
   <b>A Basic Embedded Systems Project Using 8051 Microcontroller</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Microcontroller-8051-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Embedded%20Systems-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Project-Level-Beginner-success?style=for-the-badge" />
-</p>
-
 ---
 
 ## 📌 Project Overview
 
-The **Switch ON/OFF Using 8051 Microcontroller** project demonstrates the fundamentals of digital input and output operations using the 8051 microcontroller.
+This project demonstrates the basic operation of switching an output ON and OFF using the 8051 microcontroller.
 
-The project focuses on understanding how a switch can be interfaced with a microcontroller and how its input status can be used to control an output device.
+It focuses on understanding digital input and output operations, switch interfacing, and controlling an output device based on the input received from the switch.
 
-It provides practical exposure to basic embedded C programming concepts and microcontroller-based hardware interfacing.
+The project provides practical knowledge of microcontroller programming and basic embedded system development.
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Understand the fundamentals of the 8051 microcontroller.
-- Learn digital input and output interfacing.
-- Understand switch interfacing and input detection.
-- Explore how input conditions control output operations.
-- Develop practical knowledge of embedded system design.
+- Learn how to interface a switch with the microcontroller.
+- Understand digital input and output operations.
+- Implement ON/OFF control logic.
+- Gain practical experience in embedded system design.
 
-## ⚙️ Hardware & Software Requirements
+## 🛠️ Tools & Technologies
 
-| Category | Components / Tools |
+| Category | Details |
 |---|---|
 | Microcontroller | 8051 |
-| Input Device | Switch |
 | Programming Language | Embedded C |
 | IDE | Keil µVision |
-| Simulation Tool | Proteus Design Suite |
+| Simulation Software | Proteus Design Suite |
 
-## 🔄 Working Principle
+## ⚙️ Working Principle
 
-The project follows a simple input-processing-output approach:
+The switch acts as an input device for the 8051 microcontroller. The microcontroller reads the switch status and performs the corresponding output operation according to the programmed logic.
 
-1. The microcontroller initializes the required input and output ports.
-2. It continuously monitors the switch input.
-3. Based on the detected switch condition, the programmed output operation is performed.
-4. The process repeats to respond to changes in the switch status.
+The process continuously monitors the input and controls the output based on the switch condition.
 
-## 📊 System Workflow
+## 🔄 Working Flow
 
 ```text
        START
          |
          ▼
- Initialize 8051
+  Initialize 8051
          |
          ▼
- Read Switch Input
+  Read Switch Input
          |
          ▼
- Check Switch Status
+  Check Switch Status
          |
-    ┌────┴────┐
-    ▼         ▼
-  ON State  OFF State
-    |         |
-    ▼         ▼
+     ┌───┴───┐
+     ▼       ▼
+    ON      OFF
+     |       |
+     ▼       ▼
 Output ON  Output OFF
-    |         |
-    └────┬────┘
+     |       |
+     └───┬───┘
          |
          ▼
-    Repeat Process
+   Repeat Process
 ```
 
-## 💻 Tools & Technologies
+## 📸 Circuit Diagram
 
-- **8051 Microcontroller:** Used for input processing and output control.
-- **Embedded C:** Used to implement the control logic.
-- **Keil µVision:** Used for writing and compiling the program.
-- **Proteus:** Used for circuit design and simulation.
+The following image shows the hardware circuit design of the project.
 
-## 📁 Project Structure
+![8051 Switch ON OFF Circuit](https://github.com/srushtichh0312/8051_Projects/blob/main/Switch_On_Off/Screenshot%202026-11-04%20150241.png)
 
-```text
-Switch_On_Off/
-│
-├── README.md
-├── Source_Code/
-├── Circuit_Diagram/
-└── Simulation/
-```
+## 💡 Project Highlights
 
-*Note: Add the above folders only if you organize your actual project files in this structure.*
+- Basic 8051 microcontroller interfacing.
+- Switch-based input detection.
+- Digital output control.
+- Practical embedded system implementation.
+- Circuit design and simulation using Proteus.
 
-## 📸 Project Demonstration
+## 📚 Learning Outcomes
 
-Add your actual circuit screenshot and simulation output here.
+- Developed an understanding of 8051 I/O ports.
+- Learned the basics of switch interfacing.
+- Improved knowledge of Embedded C programming.
+- Understood the relationship between hardware inputs and outputs.
+- Gained practical exposure to microcontroller-based projects.
 
-```markdown
-<img width="400" height="284" alt="image" src="https://github.com/user-attachments/assets/ce0ea4e4-41af-4a93-9fa3-caacf49ad3f0" />
-
-
-```
-
-## 📚 Key Learning Outcomes
-
-- Understanding 8051 digital I/O ports.
-- Practical knowledge of switch interfacing.
-- Learning input-based output control.
-- Improving Embedded C programming skills.
-- Understanding the fundamentals of hardware-software interaction.
 
 ---
 
 <p align="center">
-  <b>Exploring Embedded Systems, One Project at a Time! 🚀</b>
+  <b>Learning • Building • Exploring Embedded Systems 🚀</b>
 </p>
